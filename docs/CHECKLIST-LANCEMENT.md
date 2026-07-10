@@ -35,7 +35,8 @@
 - [x] **Numéro WhatsApp** : +33 6 80 99 52 07 intégré partout dans le site
       → reste à activer **WhatsApp Business** sur ce numéro (profil avec logo,
       horaires, message d'absence, réponses rapides).
-- [ ] **Portrait de Samantha** : suivre `docs/GUIDE-IMAGES.md` §1, puis intégration §5.
+- [x] **Portrait de Samantha** : intégré (`assets/img/portrait.jpg`, filigrane retouché,
+      accueil + à propos FR/EN, balises og:image mises à jour).
 - [ ] **12 images avant/après** : suivre `docs/GUIDE-IMAGES.md` §2–5.
 - [ ] Personnaliser la bio (`/a-propos/` et `/en/about/`) avec les vrais détails du parcours.
 - [ ] Compte Instagram : créer `@rives.interieures` ou corriger le lien dans les footers.

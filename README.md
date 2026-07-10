@@ -37,7 +37,8 @@ assets/css|js|img|fonts    docs/            tools/build_journal.py
 
 ## Éléments à remplacer avant mise en ligne publique
 
-1. Portrait + images avant/après (SVG d'attente actuellement en place)
+1. Images avant/après des 6 projets (SVG d'attente actuellement en place —
+   le portrait, lui, est intégré)
 2. Champs `[À COMPLÉTER]` des pages légales — SIRET dès immatriculation
    (statut : micro-entreprise, TVA non applicable art. 293 B, déjà indiqué)
 3. Bio réelle de Samantha sur /a-propos/ et /en/about/
