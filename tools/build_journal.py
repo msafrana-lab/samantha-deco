@@ -487,7 +487,7 @@ def footer(lang, other_href):
         <h4>{t['foot_contact']}</h4>
         <ul>
           <!-- TODO : coordonnées réelles -->
-          <li><a href="https://wa.me/33600000000" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://wa.me/33680995207" rel="noopener">WhatsApp</a></li>
           <li><a href="mailto:contact@rives-interieures.fr">contact@rives-interieures.fr</a></li>
           <li><a href="https://instagram.com/rives.interieures" rel="noopener">Instagram</a></li>
         </ul>
@@ -521,8 +521,7 @@ def head(lang, title, desc, canonical, alt_fr, alt_en, ogimg, ogtype="article"):
   <link rel="stylesheet" href="/assets/css/style.css">'''
 
 def wa_float(lang):
-    return f'''<!-- TODO : remplacer par le numéro WhatsApp réel de Samantha -->
-<a class="wa-flottant" href="https://wa.me/33600000000" rel="noopener" aria-label="{I18N[lang]['wa_aria']}">
+    return f'''<a class="wa-flottant" href="https://wa.me/33680995207" rel="noopener" aria-label="{I18N[lang]['wa_aria']}">
   {WA_ICON}
 </a>'''
 
@@ -579,7 +578,7 @@ def article_page(a, lang):
         </div>
         <div style="display:flex;flex-direction:column;gap:.7rem;align-items:flex-start">
           <!-- TODO : numéro WhatsApp réel -->
-          <a class="btn btn--plein" href="https://wa.me/33600000000" rel="noopener">{WA_ICON} {t["fin_btn"]}</a>
+          <a class="btn btn--plein" href="https://wa.me/33680995207" rel="noopener">{WA_ICON} {t["fin_btn"]}</a>
           <a href="{presta_href}" style="font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--laiton);font-weight:500">{t["fin_presta"]} →</a>
         </div>
       </div>

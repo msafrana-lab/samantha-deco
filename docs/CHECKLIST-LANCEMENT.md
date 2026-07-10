@@ -19,8 +19,10 @@
 
 ## 3. Statut & légal
 
-- [ ] Immatriculation (micro-entreprise pour démarrer : guichet-entreprises.fr).
-      Activité : conseil en décoration d'intérieur (pas de maîtrise d'œuvre).
+- [ ] Immatriculation en **micro-entreprise** (choix acté) via le guichet unique :
+      formalites.entreprises.gouv.fr. Activité : conseil en décoration d'intérieur
+      (pas de maîtrise d'œuvre). Reporter ensuite le SIRET dans les mentions légales
+      (FR + EN) — la TVA non applicable (art. 293 B) y est déjà indiquée.
 - [ ] Assurance RC professionnelle (indispensable, ~150–300 €/an).
 - [ ] Compléter **tous les champs `[À COMPLÉTER]`** dans `/mentions-legales/` et
       `/confidentialite/` (+ versions EN) : SIRET, adresse, nom complet, hébergeur, médiateur.
@@ -30,9 +32,9 @@
 
 ## 4. Contenus à remplacer dans le site
 
-- [ ] **Numéro WhatsApp réel** : remplacer `33600000000` partout
-      (`grep -rl "33600000000" --include='*.html' . | xargs sed -i 's/33600000000/33XXXXXXXXX/g'`)
-      → activer **WhatsApp Business** (profil avec logo, horaires, message d'absence).
+- [x] **Numéro WhatsApp** : +33 6 80 99 52 07 intégré partout dans le site
+      → reste à activer **WhatsApp Business** sur ce numéro (profil avec logo,
+      horaires, message d'absence, réponses rapides).
 - [ ] **Portrait de Samantha** : suivre `docs/GUIDE-IMAGES.md` §1, puis intégration §5.
 - [ ] **12 images avant/après** : suivre `docs/GUIDE-IMAGES.md` §2–5.
 - [ ] Personnaliser la bio (`/a-propos/` et `/en/about/`) avec les vrais détails du parcours.

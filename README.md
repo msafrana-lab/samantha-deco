@@ -37,10 +37,10 @@ assets/css|js|img|fonts    docs/            tools/build_journal.py
 
 ## Éléments à remplacer avant mise en ligne publique
 
-1. Numéro WhatsApp placeholder `33600000000` (voir check-list §4)
-2. Portrait + images avant/après (SVG d'attente actuellement en place)
-3. Champs `[À COMPLÉTER]` des pages légales
-4. Bio réelle de Samantha sur /a-propos/
+1. Portrait + images avant/après (SVG d'attente actuellement en place)
+2. Champs `[À COMPLÉTER]` des pages légales — SIRET dès immatriculation
+   (statut : micro-entreprise, TVA non applicable art. 293 B, déjà indiqué)
+3. Bio réelle de Samantha sur /a-propos/ et /en/about/
 
 ## Ajouter un article au journal
 
