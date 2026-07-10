@@ -37,7 +37,8 @@
       horaires, message d'absence, réponses rapides).
 - [x] **Portrait de Samantha** : intégré (`assets/img/portrait.jpg`, filigrane retouché,
       accueil + à propos FR/EN, balises og:image mises à jour).
-- [ ] **12 images avant/après** : suivre `docs/GUIDE-IMAGES.md` §2–5.
+- [x] **12 images avant/après** : intégrées (filigranes retouchés, JPEG optimisés,
+      galerie + accueil + vignettes du journal basculés sur les photos).
 - [ ] Personnaliser la bio (`/a-propos/` et `/en/about/`) avec les vrais détails du parcours.
 - [ ] Compte Instagram : créer `@rives.interieures` ou corriger le lien dans les footers.
 

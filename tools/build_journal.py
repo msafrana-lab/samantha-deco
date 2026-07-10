@@ -61,7 +61,7 @@ ARTICLES = [
 dict(
   slug_fr="reveler-la-vue-lac", slug_en="reveal-the-lake-view",
   cat_fr="Aménagement", cat_en="Layout",
-  img="/assets/img/projets/salon-apres.svg",
+  img="/assets/img/projets/salon-apres.jpg",
   title_fr="Appartement au bord du Léman : révéler (enfin) la vue lac",
   title_en="Living by Lake Geneva: how to (finally) reveal the view",
   desc_fr="La vue est votre plus belle pièce de mobilier. Cinq principes concrets pour la mettre en majesté dans un salon du bord du Léman.",
@@ -102,7 +102,7 @@ dict(
 dict(
   slug_fr="home-staging-vendre-plus-vite", slug_en="home-staging-sell-faster",
   cat_fr="Home staging", cat_en="Home staging",
-  img="/assets/img/projets/studio-apres.svg",
+  img="/assets/img/projets/studio-apres.jpg",
   title_fr="Vendre à Thonon ou Évian : ce que le home staging change vraiment",
   title_en="Selling around Thonon or Évian: what home staging really changes",
   desc_fr="Des visites qui s'enchaînent aux offres qui montent : le mécanisme réel du home staging, sans promesses magiques ni pourcentages fantaisistes.",
@@ -145,7 +145,7 @@ dict(
 dict(
   slug_fr="coin-teletravail-chambre", slug_en="home-office-in-the-bedroom",
   cat_fr="Télétravail", cat_en="Home office",
-  img="/assets/img/projets/chambre-apres.svg",
+  img="/assets/img/projets/chambre-apres.jpg",
   title_fr="Télétravail frontalier : un vrai bureau dans la chambre, sans sacrifier le sommeil",
   title_en="Working from home: a real desk in the bedroom without sacrificing sleep",
   desc_fr="Deux jours de télétravail par semaine et pas de pièce en plus : comment intégrer un poste de travail digne de ce nom dans la chambre — et l'oublier le soir.",
@@ -194,7 +194,7 @@ dict(
 dict(
   slug_fr="relooker-sans-travaux", slug_en="restyle-without-renovation",
   cat_fr="Relooking", cat_en="Makeover",
-  img="/assets/img/projets/cuisine-apres.svg",
+  img="/assets/img/projets/cuisine-apres.jpg",
   title_fr="Relooker sans travaux : ce que la peinture, la lumière et le textile savent faire",
   title_en="A makeover without building work: what paint, light and textiles can do",
   desc_fr="Pas de démolition, pas de poussière, pas de permis : trois leviers qui transforment une pièce en profondeur — et dans quel ordre les actionner.",
@@ -239,7 +239,7 @@ dict(
 dict(
   slug_fr="esprit-chalet-contemporain", slug_en="modern-chalet-spirit",
   cat_fr="Esprit alpin", cat_en="Alpine spirit",
-  img="/assets/img/projets/chalet-apres.svg",
+  img="/assets/img/projets/chalet-apres.jpg",
   title_fr="Moderniser un chalet sans le trahir",
   title_en="Modernising a chalet without betraying it",
   desc_fr="Entre le tout-lambris qui étouffe et le blanc clinique qui efface : la voie du chalet alpin contemporain, expliquée choix par choix.",
@@ -286,7 +286,7 @@ dict(
 dict(
   slug_fr="entree-premiere-impression", slug_en="entryway-first-impression",
   cat_fr="Petits espaces", cat_en="Small spaces",
-  img="/assets/img/projets/entree-apres.svg",
+  img="/assets/img/projets/entree-apres.jpg",
   title_fr="L'entrée, la pièce qu'on oublie (et que tout le monde voit en premier)",
   title_en="The entryway: the room everyone forgets (and everyone sees first)",
   desc_fr="Six mètres carrés qui décident de la première impression : méthode complète pour une entrée belle ET fonctionnelle, même étroite.",
