@@ -504,6 +504,7 @@ def head(lang, title, desc, canonical, alt_fr, alt_en, ogimg, ogtype="article"):
     t = I18N[lang]
     return f'''<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F7F4EF">
   <title>{title}</title>
   <meta name="description" content="{desc}">
   <link rel="canonical" href="{canonical}">

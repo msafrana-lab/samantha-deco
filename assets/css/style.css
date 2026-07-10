@@ -158,8 +158,8 @@ section { padding-block: clamp(4rem, 9vw, 7.5rem); }
 .lang-switch a { padding: .1rem .55rem; border-radius: 99px; }
 .lang-switch a[aria-current="true"] { background: var(--encre); color: var(--creme); }
 
-/* Burger */
-.burger { display: none; z-index: 120; width: 2.4rem; height: 2.4rem; position: relative; }
+/* Burger (zone de tap ≥ 44px) */
+.burger { display: none; z-index: 120; width: 2.75rem; height: 2.75rem; position: relative; }
 .burger span {
   position: absolute;
   left: 50%; top: 50%;
@@ -668,7 +668,8 @@ html.no-anim .rvl { opacity: 1 !important; transform: none !important; transitio
   .footer__grid { grid-template-columns: 1fr 1fr; }
   .hero__badge { left: .8rem; bottom: 1rem; }
 }
-@media (max-width: 760px) {
+/* Tablette & mobile : navigation par menu burger (le rang complet est trop étroit sous 900px) */
+@media (max-width: 900px) {
   .nav {
     position: fixed;
     inset: 0;
@@ -683,11 +684,13 @@ html.no-anim .rvl { opacity: 1 !important; transform: none !important; transitio
   .nav a { font-size: 1.05rem; }
   .nav-open .nav { transform: none; }
   .burger { display: block; }
+  .lang-switch { margin-left: auto; margin-right: 1rem; }
+}
+@media (max-width: 760px) {
   .cards, .journal-grid { grid-template-columns: 1fr; }
   .chiffres { grid-template-columns: 1fr; gap: 2.2rem; }
   .etapes { grid-template-columns: 1fr; }
   .zone-liste { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr; }
   .hero__cta .btn { width: 100%; }
-  .lang-switch { margin-left: auto; margin-right: 1rem; }
 }
