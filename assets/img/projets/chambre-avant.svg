@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Avant : chambre encombrée, papier peint rayé et bureau improvisé">
+  <!-- papier peint rayé terne -->
+  <rect width="1200" height="620" fill="#C6BCA8"/>
+  <g stroke="#B3A78F" stroke-width="26">
+    <line x1="60" y1="0" x2="60" y2="620"/><line x1="150" y1="0" x2="150" y2="620"/><line x1="240" y1="0" x2="240" y2="620"/><line x1="330" y1="0" x2="330" y2="620"/><line x1="420" y1="0" x2="420" y2="620"/><line x1="510" y1="0" x2="510" y2="620"/><line x1="600" y1="0" x2="600" y2="620"/><line x1="690" y1="0" x2="690" y2="620"/><line x1="780" y1="0" x2="780" y2="620"/><line x1="870" y1="0" x2="870" y2="620"/><line x1="960" y1="0" x2="960" y2="620"/><line x1="1050" y1="0" x2="1050" y2="620"/><line x1="1140" y1="0" x2="1140" y2="620"/>
+  </g>
+  <!-- moquette -->
+  <rect y="620" width="1200" height="280" fill="#8D8371"/>
+  <rect y="620" width="1200" height="280" fill="#7C7361" opacity=".4"/>
+  <!-- lit lourd, couette sombre à motifs -->
+  <g>
+    <rect x="330" y="330" width="420" height="90" fill="#5C4433"/>
+    <rect x="310" y="410" width="460" height="200" rx="8" fill="#5A5347"/>
+    <g stroke="#6E6656" stroke-width="9" fill="none">
+      <path d="M330 450 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0"/>
+      <path d="M330 510 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0"/>
+      <path d="M330 570 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0 q40 24 80 0"/>
+    </g>
+    <rect x="350" y="372" width="150" height="52" rx="10" fill="#B4AC9C"/>
+    <rect x="560" y="372" width="150" height="52" rx="10" fill="#B4AC9C"/>
+  </g>
+  <!-- armoire massive -->
+  <rect x="60" y="180" width="220" height="430" fill="#553F2F"/>
+  <rect x="60" y="180" width="220" height="430" fill="none" stroke="#42311f" stroke-width="7"/>
+  <line x1="170" y1="180" x2="170" y2="610" stroke="#42311f" stroke-width="7"/>
+  <circle cx="152" cy="400" r="8" fill="#8F887A"/><circle cx="188" cy="400" r="8" fill="#8F887A"/>
+  <!-- bureau improvisé : table pliante, chaise dépareillée, câbles -->
+  <g>
+    <rect x="850" y="470" width="280" height="18" fill="#8F887A"/>
+    <line x1="870" y1="488" x2="850" y2="620" stroke="#6E6656" stroke-width="9"/>
+    <line x1="1110" y1="488" x2="1130" y2="620" stroke="#6E6656" stroke-width="9"/>
+    <rect x="890" y="390" width="110" height="72" fill="#2E2A26"/>
+    <path d="M945 462 v40 M905 502 h80" stroke="#2E2A26" stroke-width="8"/>
+    <path d="M1000 488 q60 40 30 132 M1010 488 q80 30 90 120" stroke="#42413c" stroke-width="5" fill="none"/>
+    <rect x="1035" y="430" width="70" height="42" fill="#B4AC9C"/>
+  </g>
+  <!-- chaise pliante -->
+  <g stroke="#6E6656" stroke-width="8" fill="none">
+    <rect x="905" y="560" width="80" height="10" fill="#8F887A" stroke="none"/>
+    <line x1="912" y1="570" x2="898" y2="660"/><line x1="978" y1="570" x2="992" y2="660"/>
+    <line x1="912" y1="560" x2="912" y2="470"/><rect x="908" y="470" width="74" height="34" fill="#8F887A" stroke="none"/>
+  </g>
+  <!-- cartons + linge -->
+  <g>
+    <rect x="620" y="640" width="130" height="100" fill="#A08A64"/>
+    <rect x="640" y="600" width="110" height="60" fill="#B39A70"/>
+    <path d="M620 640 l65 26 l65 -26 M640 600 l55 22 l55 -22" stroke="#87724f" stroke-width="5" fill="none"/>
+    <ellipse cx="420" cy="700" rx="90" ry="30" fill="#6E6656"/>
+    <ellipse cx="450" cy="678" rx="60" ry="22" fill="#7C7361"/>
+  </g>
+  <!-- rideaux épais fermés -->
+  <rect x="760" y="90" width="180" height="270" fill="#9FB2B8"/>
+  <rect x="760" y="90" width="180" height="270" fill="none" stroke="#6E6656" stroke-width="8"/>
+  <path d="M730 76 h90 v300 q-26 12 -45 0 q-26 10 -45 0 Z" fill="#5A5347"/>
+  <path d="M880 76 h90 v300 q-26 12 -45 0 q-26 10 -45 0 Z" fill="#5A5347"/>
+  <rect x="716" y="66" width="270" height="14" rx="7" fill="#42413c"/>
+  <!-- ampoule nue -->
+  <line x1="600" y1="0" x2="600" y2="70" stroke="#8F887A" stroke-width="4"/>
+  <circle cx="600" cy="86" r="18" fill="#D8D2C4"/>
+  <rect width="1200" height="900" fill="#3E3A33" opacity=".18"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Portrait de Samantha — photographie professionnelle à venir">
+  <defs>
+    <linearGradient id="fond-p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DFE6E0"/><stop offset="1" stop-color="#C9D3CB"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#fond-p)"/>
+  <!-- arche -->
+  <path d="M170 1200 V560 q0 -280 280 -280 q280 0 280 280 v640 Z" fill="#F7F4EF"/>
+  <!-- silhouette abstraite élégante -->
+  <g>
+    <circle cx="450" cy="560" r="92" fill="#E3DACA"/>
+    <path d="M450 660 q-160 24 -190 200 q-14 120 -10 340 h400 q4 -220 -10 -340 q-30 -176 -190 -200 Z" fill="#D9CDB8"/>
+    <path d="M380 505 q-24 -95 70 -110 q86 -14 104 62 q10 46 -14 88 q-6 -66 -60 -74 q-70 -10 -100 34 Z" fill="#8D7357"/>
+    <path d="M356 560 q-10 90 40 132 M544 560 q10 90 -40 132" stroke="#8D7357" stroke-width="16" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- ligne du lac -->
+  <path d="M330 1000 C 360 988, 390 1010, 420 1000 S 480 988, 510 1000 S 560 1008, 570 1000" fill="none" stroke="#B08D57" stroke-width="4" stroke-linecap="round"/>
+  <text x="450" y="1075" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="40" fill="#1F2A38">Samantha</text>
+  <text x="450" y="1118" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" letter-spacing="4" fill="#8A9B8E">PORTRAIT À VENIR</text>
+</svg>

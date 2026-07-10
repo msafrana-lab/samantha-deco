@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Avant : salon sombre et daté, rideaux lourds masquant la vue">
+  <!-- murs ternes -->
+  <rect width="1200" height="620" fill="#C9C3B6"/>
+  <rect width="1200" height="620" fill="#A8A296" opacity=".25"/>
+  <!-- sol : parquet foncé fatigué -->
+  <rect y="620" width="1200" height="280" fill="#7A6552"/>
+  <g stroke="#6A5746" stroke-width="3">
+    <line x1="0" y1="670" x2="1200" y2="670"/><line x1="0" y1="730" x2="1200" y2="730"/>
+    <line x1="0" y1="795" x2="1200" y2="795"/><line x1="0" y1="860" x2="1200" y2="860"/>
+  </g>
+  <rect y="608" width="1200" height="14" fill="#8F887A"/>
+  <!-- fenêtre étroite, rideaux lourds fermés -->
+  <rect x="470" y="120" width="260" height="380" fill="#9FB2B8"/>
+  <rect x="470" y="120" width="260" height="380" fill="none" stroke="#6E6656" stroke-width="10"/>
+  <line x1="600" y1="120" x2="600" y2="500" stroke="#6E6656" stroke-width="8"/>
+  <line x1="470" y1="310" x2="730" y2="310" stroke="#6E6656" stroke-width="8"/>
+  <!-- montagnes à peine visibles -->
+  <path d="M480 260 L560 190 L640 250 L720 200 L720 300 L480 300 Z" fill="#8298A0" opacity=".7"/>
+  <!-- rideaux bruns -->
+  <path d="M430 90 h110 v440 q-30 12 -55 0 q-30 10 -55 0 Z" fill="#6B4F3A"/>
+  <path d="M660 90 h110 v440 q-28 12 -55 0 q-28 10 -55 0 Z" fill="#6B4F3A"/>
+  <path d="M445 90 v430 M475 90 v435 M505 90 v430 M675 90 v430 M705 90 v435 M735 90 v430" stroke="#5A4231" stroke-width="7" fill="none"/>
+  <rect x="415" y="78" width="370" height="16" rx="8" fill="#4E3A2B"/>
+  <!-- canapé marron affaissé -->
+  <g>
+    <rect x="120" y="470" width="420" height="150" rx="14" fill="#5C4433"/>
+    <rect x="140" y="400" width="380" height="100" rx="16" fill="#6B4F3A"/>
+    <rect x="150" y="486" width="175" height="52" rx="10" fill="#7A5B44"/>
+    <rect x="335" y="486" width="175" height="52" rx="10" fill="#7A5B44"/>
+    <rect x="100" y="440" width="46" height="160" rx="12" fill="#523D2E"/>
+    <rect x="516" y="440" width="46" height="160" rx="12" fill="#523D2E"/>
+    <path d="M150 470 q90 26 180 0" stroke="#523D2E" stroke-width="5" fill="none"/>
+  </g>
+  <!-- table basse massive + bibelots -->
+  <rect x="620" y="600" width="300" height="26" rx="4" fill="#4E3A2B"/>
+  <rect x="640" y="626" width="22" height="90" fill="#42311f"/>
+  <rect x="878" y="626" width="22" height="90" fill="#42311f"/>
+  <rect x="700" y="570" width="60" height="30" fill="#8F887A"/>
+  <ellipse cx="820" cy="588" rx="30" ry="14" fill="#6E6656"/>
+  <!-- meuble TV lourd -->
+  <rect x="950" y="470" width="220" height="150" fill="#553F2F"/>
+  <rect x="950" y="470" width="220" height="150" fill="none" stroke="#42311f" stroke-width="6"/>
+  <line x1="1060" y1="470" x2="1060" y2="620" stroke="#42311f" stroke-width="6"/>
+  <rect x="985" y="360" width="150" height="95" fill="#2E2A26"/>
+  <!-- tapis à motifs daté -->
+  <ellipse cx="560" cy="760" rx="330" ry="90" fill="#7E3B34"/>
+  <ellipse cx="560" cy="760" rx="260" ry="66" fill="none" stroke="#93524A" stroke-width="10"/>
+  <ellipse cx="560" cy="760" rx="170" ry="42" fill="none" stroke="#93524A" stroke-width="8"/>
+  <!-- plafonnier basique -->
+  <line x1="600" y1="0" x2="600" y2="60" stroke="#8F887A" stroke-width="5"/>
+  <ellipse cx="600" cy="76" rx="52" ry="22" fill="#D8D2C4"/>
+  <!-- cadre de travers -->
+  <g transform="rotate(-4 210 250)">
+    <rect x="160" y="200" width="100" height="130" fill="#8F887A"/>
+    <rect x="172" y="212" width="76" height="106" fill="#B4AC9C"/>
+  </g>
+  <!-- voile terne général -->
+  <rect width="1200" height="900" fill="#3E3A33" opacity=".18"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Avant : séjour de chalet sombre, lambris orangé du sol au plafond">
+  <!-- lambris orangé partout -->
+  <rect width="1200" height="620" fill="#A96B33"/>
+  <g stroke="#8A5326" stroke-width="4">
+    <line x1="0" y1="55" x2="1200" y2="55"/><line x1="0" y1="115" x2="1200" y2="115"/><line x1="0" y1="175" x2="1200" y2="175"/><line x1="0" y1="235" x2="1200" y2="235"/><line x1="0" y1="295" x2="1200" y2="295"/><line x1="0" y1="355" x2="1200" y2="355"/><line x1="0" y1="415" x2="1200" y2="415"/><line x1="0" y1="475" x2="1200" y2="475"/><line x1="0" y1="535" x2="1200" y2="535"/><line x1="0" y1="595" x2="1200" y2="595"/>
+  </g>
+  <g stroke="#8A5326" stroke-width="2" opacity=".6" fill="none">
+    <ellipse cx="180" cy="85" rx="14" ry="7"/><ellipse cx="520" cy="205" rx="16" ry="8"/><ellipse cx="900" cy="145" rx="13" ry="6"/><ellipse cx="330" cy="385" rx="15" ry="7"/><ellipse cx="1050" cy="445" rx="14" ry="7"/>
+  </g>
+  <!-- sol bois foncé -->
+  <rect y="620" width="1200" height="280" fill="#6E4420"/>
+  <g stroke="#5c3719" stroke-width="3">
+    <line x1="0" y1="678" x2="1200" y2="678"/><line x1="0" y1="738" x2="1200" y2="738"/><line x1="0" y1="800" x2="1200" y2="800"/><line x1="0" y1="860" x2="1200" y2="860"/>
+  </g>
+  <!-- petite fenêtre rideaux carreaux -->
+  <rect x="500" y="160" width="200" height="220" fill="#AEBFC5"/>
+  <path d="M500 280 L560 230 L620 275 L700 220 L700 380 L500 380 Z" fill="#8298A0" opacity=".8"/>
+  <rect x="500" y="160" width="200" height="220" fill="none" stroke="#5c3719" stroke-width="10"/>
+  <line x1="600" y1="160" x2="600" y2="380" stroke="#5c3719" stroke-width="7"/>
+  <path d="M470 148 h70 v250 q-20 10 -35 0 q-22 10 -35 0 Z" fill="#7E3B34"/>
+  <path d="M660 148 h70 v250 q-20 10 -35 0 q-22 10 -35 0 Z" fill="#7E3B34"/>
+  <g stroke="#93524A" stroke-width="5">
+    <line x1="480" y1="170" x2="530 " y2="170"/><line x1="480" y1="220" x2="530" y2="220"/><line x1="480" y1="270" x2="530" y2="270"/><line x1="480" y1="320" x2="530" y2="320"/>
+    <line x1="670" y1="170" x2="720" y2="170"/><line x1="670" y1="220" x2="720" y2="220"/><line x1="670" y1="270" x2="720" y2="270"/><line x1="670" y1="320" x2="720" y2="320"/>
+  </g>
+  <rect x="455" y="136" width="300" height="14" rx="7" fill="#5c3719"/>
+  <!-- cheminée pierre datée -->
+  <g>
+    <rect x="850" y="240" width="300" height="380" fill="#8F887A"/>
+    <g fill="#7C7361">
+      <rect x="862" y="256" width="80" height="44" rx="6"/><rect x="952" y="256" width="90" height="44" rx="6"/><rect x="1052" y="256" width="84" height="44" rx="6"/>
+      <rect x="862" y="310" width="60" height="44" rx="6"/><rect x="932" y="310" width="100" height="44" rx="6"/><rect x="1042" y="310" width="94" height="44" rx="6"/>
+      <rect x="862" y="364" width="90" height="44" rx="6"/><rect x="962" y="364" width="70" height="44" rx="6"/><rect x="1042" y="364" width="94" height="44" rx="6"/>
+    </g>
+    <rect x="900" y="440" width="200" height="150" rx="8" fill="#2E2A26"/>
+    <path d="M950 570 q20 -60 50 -60 q30 0 50 60 Z" fill="#C87F5F" opacity=".7"/>
+    <rect x="850" y="420" width="300" height="20" fill="#6E4420"/>
+  </g>
+  <!-- canapé écossais -->
+  <g>
+    <rect x="110" y="430" width="430" height="180" rx="12" fill="#7E3B34"/>
+    <rect x="128" y="378" width="394" height="80" rx="12" fill="#93524A"/>
+    <g stroke="#93524A" stroke-width="6" opacity=".8">
+      <line x1="160" y1="430" x2="160" y2="610"/><line x1="240" y1="430" x2="240" y2="610"/><line x1="320" y1="430" x2="320" y2="610"/><line x1="400" y1="430" x2="400" y2="610"/><line x1="480" y1="430" x2="480" y2="610"/>
+      <line x1="110" y1="480" x2="540" y2="480"/><line x1="110" y1="545" x2="540" y2="545"/>
+    </g>
+    <rect x="92" y="410" width="38" height="160" rx="10" fill="#6B3129"/>
+    <rect x="520" y="410" width="38" height="160" rx="10" fill="#6B3129"/>
+  </g>
+  <!-- lustre roue de charrette -->
+  <line x1="600" y1="0" x2="600" y2="60" stroke="#5c3719" stroke-width="6"/>
+  <ellipse cx="600" cy="80" rx="110" ry="20" fill="none" stroke="#5c3719" stroke-width="9"/>
+  <circle cx="520" cy="74" r="9" fill="#D8B25F"/><circle cx="600" cy="92" r="9" fill="#D8B25F"/><circle cx="680" cy="74" r="9" fill="#D8B25F"/>
+  <!-- tapis usé -->
+  <ellipse cx="480" cy="760" rx="300" ry="80" fill="#7A5B44"/>
+  <ellipse cx="480" cy="760" rx="230" ry="58" fill="none" stroke="#8D6A4E" stroke-width="9"/>
+  <!-- vieux ski décoratif -->
+  <g transform="rotate(-12 200 300)">
+    <rect x="180" y="180" width="16" height="260" rx="8" fill="#5c3719"/>
+    <rect x="210" y="180" width="16" height="260" rx="8" fill="#5c3719"/>
+  </g>
+  <rect width="1200" height="900" fill="#2E1F12" opacity=".22"/>
+</svg>

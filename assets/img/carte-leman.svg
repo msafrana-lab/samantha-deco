@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" role="img" aria-label="Carte stylisée du lac Léman : zone d'intervention entre Évian, Thonon, Genève et Lausanne">
+  <defs>
+    <linearGradient id="eau" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33465C"/>
+      <stop offset="1" stop-color="#1F2A38"/>
+    </linearGradient>
+    <style>
+      .ville { font-family: 'Jost', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: .06em; fill: #1F2A38; }
+      .pays  { font-family: 'Jost', sans-serif; font-size: 11px; font-weight: 400; letter-spacing: .28em; fill: #8A9B8E; }
+      .lac   { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 24px; fill: #F7F4EF; opacity: .9; }
+    </style>
+  </defs>
+  <rect width="640" height="460" fill="#EFEAE1" rx="6"/>
+  <!-- Forme stylisée du Léman (croissant) -->
+  <path d="M78 236
+           C 96 196, 160 158, 250 150
+           C 344 141, 430 148, 500 172
+           C 546 188, 574 210, 580 232
+           C 585 252, 560 262, 520 258
+           C 470 253, 430 246, 370 250
+           C 300 255, 250 268, 196 270
+           C 136 272, 66 262, 78 236 Z"
+        fill="url(#eau)"/>
+  <path d="M100 234 C 130 210, 190 186, 260 180 M300 176 C 380 170, 470 180, 540 210"
+        fill="none" stroke="#F7F4EF" stroke-width="1" opacity=".18"/>
+  <text class="lac" x="320" y="215" text-anchor="middle">Lac Léman</text>
+  <text class="pays" x="320" y="98">SUISSE</text>
+  <text class="pays" x="320" y="392">FRANCE — HAUTE-SAVOIE</text>
+
+  <!-- Villes : rive française -->
+  <g>
+    <circle cx="352" cy="272" r="7" fill="#B08D57"/>
+    <circle cx="352" cy="272" r="13" fill="none" stroke="#B08D57" stroke-width="1.4" opacity=".5">
+      <animate attributeName="r" values="10;17;10" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".55;.1;.55" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <text class="ville" x="352" y="303" text-anchor="middle">Évian-les-Bains</text>
+  </g>
+  <g>
+    <circle cx="252" cy="280" r="5.5" fill="#B08D57"/>
+    <text class="ville" x="252" y="308" text-anchor="middle">Thonon</text>
+  </g>
+  <!-- Villes : rive suisse -->
+  <g>
+    <circle cx="96" cy="252" r="5.5" fill="#8A9B8E"/>
+    <text class="ville" x="96" y="234" text-anchor="middle">Genève</text>
+  </g>
+  <g>
+    <circle cx="196" cy="170" r="5" fill="#8A9B8E"/>
+    <text class="ville" x="196" y="152" text-anchor="middle">Nyon</text>
+  </g>
+  <g>
+    <circle cx="424" cy="150" r="5.5" fill="#8A9B8E"/>
+    <text class="ville" x="424" y="132" text-anchor="middle">Lausanne</text>
+  </g>
+  <g>
+    <circle cx="548" cy="196" r="5" fill="#8A9B8E"/>
+    <text class="ville" x="560" y="180" text-anchor="middle">Montreux</text>
+  </g>
+  <!-- Rayon d'intervention -->
+  <circle cx="352" cy="272" r="235" fill="none" stroke="#B08D57" stroke-width="1.2" stroke-dasharray="5 7" opacity=".55"/>
+</svg>
