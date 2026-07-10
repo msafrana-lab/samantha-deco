@@ -659,11 +659,26 @@ def journal_index(lang):
 </html>
 '''
 
+import re
+_ABS = re.compile(r'(href|src)="/(?!/)([^"]*)"')
+
+def relativize(html, depth):
+    """Chemins racine -> relatifs, pour fonctionner aussi sous un sous-dossier
+    (GitHub Pages type msafrana-lab.github.io/samantha-deco/)."""
+    prefix = "../" * depth
+    def rep(m):
+        attr, path = m.group(1), m.group(2)
+        if path == "":
+            return f'{attr}="{prefix or "./"}"'
+        return f'{attr}="{prefix}{path}"'
+    return _ABS.sub(rep, html)
+
 def write(path, content):
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
+    depth = path.count("/")  # journal/index.html -> 1 ; en/journal/slug/index.html -> 3
     with open(full, "w", encoding="utf-8") as fh:
-        fh.write(content)
+        fh.write(relativize(content, depth))
     print("  •", path)
 
 if __name__ == "__main__":
