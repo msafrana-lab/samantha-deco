@@ -53,12 +53,20 @@ Fichiers : `assets/img/logo.svg` (fond clair), `logo-blanc.svg` (fond sombre),
 
 ## Ton éditorial
 
-Chaleureux et complice, vouvoiement proche, bénéfices vécus (lumière, sérénité,
-fierté de recevoir). Franchise assumée sur les prix et les limites (« je vous
-dis quand une dépense n'en vaut pas la peine »). Jamais de jargon, jamais de
-superlatifs creux, aucune promesse chiffrée non sourcée.
+Chaleureux et proche du lecteur, vouvoiement simple, bénéfices vécus (lumière,
+sérénité, fierté de recevoir). Franchise assumée sur les prix et les limites.
+Jamais de jargon, jamais de superlatifs creux, aucune promesse chiffrée non
+sourcée. Phrases courtes, parlées mais soignées.
 
-En anglais : même chaleur, anglais britannique, tutoiement direct « you ».
+Règles d'écriture (à respecter dans tout nouveau texte, articles compris) :
+- pas de tiret cadratin (—) : virgules, points ou parenthèses
+- pas de question rhétorique : on s'adresse directement au lecteur
+- pas de « ce n'est pas X, c'est Y » ni de raisonnement inversé : dire la chose
+- pas de règle de trois systématique ni de vocabulaire pompeux (« révéler »,
+  « sublimer », « écrin », « célébrer »...)
+- séparateurs des listes et pieds de page : point médian (·)
+
+En anglais : même chaleur, anglais britannique, mêmes règles.
 
 ## Ce qu'on ne fait JAMAIS
 
